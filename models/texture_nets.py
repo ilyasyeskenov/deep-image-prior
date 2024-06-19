@@ -16,7 +16,6 @@ def conv(in_f, out_f, kernel_size, stride=1, bias=True, pad='zero'):
 
 def get_texture_nets(inp=3, ratios = [32, 16, 8, 4, 2, 1], fill_noise=False, pad='zero', need_sigmoid=False, conv_num=8, upsample_mode='nearest'):
 
-
     for i in range(len(ratios)):
         j = i + 1
 

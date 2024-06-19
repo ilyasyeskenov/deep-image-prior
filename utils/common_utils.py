@@ -3,11 +3,10 @@ import torch.nn as nn
 import torchvision
 import sys
 
-import numpy as np
-from PIL import Image
 import PIL
+from PIL import Image
 import numpy as np
-
+from PIL.Image import Resampling
 import matplotlib.pyplot as plt
 
 def crop_image(img, d=32):
